@@ -57,7 +57,9 @@ venv\Scripts\activate
 3. Install Dependencies
 pip install -r requirements.txt
 
-▶️ Usage
+---
+
+## ▶️ Usage
 python app.py
 
 Steps
@@ -66,6 +68,7 @@ Steps
 3.Adjust Parameters → Set confidence, FPS, SMA window, and output saving options.
 4.Start Inference → Click ▶ Start to begin detection and area trend monitoring.
 5.Monitor NG Alerts → Receive audible beeps and auto-generated PDF reports when NG conditions are met.
+---
 
 This project is licensed under the MIT License.
 
