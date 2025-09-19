@@ -35,7 +35,8 @@ monitor-area-of-object-GUI/
 
 
 
-Installation
+###Installation
+</pre>
 1. Clone Repository
 Clone this repository and move into the project folder:
 
@@ -49,6 +50,7 @@ venv\Scripts\activate         # Windows
 
 3. Install Dependencies
 pip install -r requirements.txt
+</pre>
 
 ###▶ Usage
 ```bash
