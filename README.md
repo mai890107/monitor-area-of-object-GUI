@@ -43,6 +43,7 @@ git clone https://github.com/mai890107/monitor-area-of-object-GUI.git
 cd monitor-area-of-object-GUI
 
 ### 2️⃣ Create Virtual Environment (Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
@@ -51,6 +52,7 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 
 ###▶ Usage
+```bash
 Launch GUI
 python app.py
 
