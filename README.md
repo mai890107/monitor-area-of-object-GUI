@@ -31,7 +31,7 @@ monitor-area-of-object-GUI/
 └── gui screenshot.jpg # GUI preview screenshot
 
 
----
+
 
 ## 🚀 Installation
 
@@ -40,15 +40,15 @@ monitor-area-of-object-GUI/
 git clone https://github.com/mai890107/monitor-area-of-object-GUI.git
 cd monitor-area-of-object-GUI
 
-2️⃣ Create Virtual Environment (Recommended)
+###2️⃣ Create Virtual Environment (Recommended)
 python -m venv venv
 source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
 
-3️⃣ Install Dependencies
+###3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-▶ Usage
+###▶ Usage
 Launch GUI
 python app.py
 
