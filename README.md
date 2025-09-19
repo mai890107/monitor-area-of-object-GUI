@@ -36,13 +36,11 @@ monitor-area-of-object-GUI/
 
 
 Installation
-
 1. Clone Repository
 Clone this repository and move into the project folder:
-```bash
+
 git clone https://github.com/mai890107/monitor-area-of-object-GUI.git
 cd monitor-area-of-object-GUI
-
 
 2. Create Virtual Environment (Recommended)
 python -m venv venv
