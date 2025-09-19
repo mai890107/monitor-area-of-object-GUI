@@ -19,16 +19,18 @@
 ---
 
 ## 📂 Project Structure
+<pre>
 monitor-area-of-object-GUI/
-├── app.py # Main application entry point (initializes YOLOInferenceApp)
-├── ui.py # UIManager – builds Tkinter interface and layouts
-├── data_processor.py # DataProcessor – handles area cleaning, trend checks, NG detection
-├── resource_manager.py # ResourceManager – GPU/CPU resource handling and cleanup
-├── video_processor.py # VideoProcessor – handles frame reading, YOLO inference, and plotting
+├── app.py               # Main application entry point (initializes YOLOInferenceApp)
+├── ui.py                # UIManager – builds Tkinter interface and layouts
+├── data_processor.py    # DataProcessor – handles area cleaning, trend checks, NG detection
+├── resource_manager.py  # ResourceManager – GPU/CPU resource handling and cleanup
+├── video_processor.py   # VideoProcessor – handles frame reading, YOLO inference, and plotting
 ├── models/
-│ └── area0903.pt # Example YOLO model weights
+│   └── area0903.pt      # Example YOLO model weights
 └── docs/
-└── gui screenshot.jpg # GUI preview screenshot
+    └── gui screenshot.jpg # GUI preview screenshot
+</pre>
 
 
 
