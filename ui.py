@@ -274,7 +274,7 @@ class UIManager:
         
     def _setup_chart_area(self, parent):
         """設定右側圖表區域"""
-        chart_frame = ttk.LabelFrame(parent, text="📈 SMA 趨勢分析", style='Title.TLabelframe', padding="8")
+        chart_frame = ttk.LabelFrame(parent, text="SMA 趨勢分析", style='Title.TLabelframe', padding="8")
         chart_frame.grid(row=0, column=2, sticky=(tk.W, tk.E, tk.N, tk.S), padx=(8, 0))
         chart_frame.columnconfigure(0, weight=1)
         chart_frame.rowconfigure(0, weight=1)
@@ -310,7 +310,7 @@ class UIManager:
         """設定初始化圖表"""
         self.app.ax.clear()
         self.app.ax.set_facecolor('#fafafa')
-        self.app.ax.set_title('SMA Area Trend Analysis\n(Updates every 15 seconds)', 
+        self.app.ax.set_title('SMA Area Trend Analysis\n(Updates every 1 seconds)', 
                          fontsize=12, fontweight='bold', color='#2c3e50', pad=20)
         self.app.ax.set_xlabel('Time (seconds)', fontsize=10, color='#34495e')
         self.app.ax.set_ylabel('Area (px²)', fontsize=10, color='#34495e')

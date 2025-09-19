@@ -19,12 +19,6 @@ try:
 except ImportError:
     YOLO_AVAILABLE = False
 
-try:
-    import beepy
-    BEEP_AVAILABLE = True
-except ImportError:
-    BEEP_AVAILABLE = False
-
 # 導入子模組
 try:
     from ui import UIManager
