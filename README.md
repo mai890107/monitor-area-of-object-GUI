@@ -35,20 +35,21 @@ monitor-area-of-object-GUI/
 
 
 
-##  Installation
+Installation
 
-### 1️⃣ Clone Repository
+1. Clone Repository
+Clone this repository and move into the project folder:
 ```bash
 git clone https://github.com/mai890107/monitor-area-of-object-GUI.git
 cd monitor-area-of-object-GUI
 
-### 2️⃣ Create Virtual Environment (Recommended)
-```bash
+
+2. Create Virtual Environment (Recommended)
 python -m venv venv
 source venv/bin/activate      # macOS/Linux
 venv\Scripts\activate         # Windows
 
-###3️⃣ Install Dependencies
+3. Install Dependencies
 pip install -r requirements.txt
 
 ###▶ Usage
