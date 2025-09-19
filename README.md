@@ -23,6 +23,7 @@
 ---
 
 ## 📂 Project Structure
+<pre>
 monitor-area-of-object-GUI/
 ├── app.py              # Main application entry point (initializes YOLOInferenceApp)
 ├── ui.py               # UIManager – builds Tkinter interface and layouts
@@ -33,6 +34,7 @@ monitor-area-of-object-GUI/
 │   └── area0903.pt     # Example YOLO model weights
 └── docs/
 └── gui screenshot.jpg # GUI preview screenshot
+  <pre>
 ---
 
 ## 🚀 Getting Started
