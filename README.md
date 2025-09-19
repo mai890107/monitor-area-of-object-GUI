@@ -13,62 +13,44 @@
 
 ## ✨ Features
 
--   🎬 **Multiple Input Sources**: Load from local video files, RTSP streams, or camera devices.
--   🤖 **YOLOv8 Inference**: GPU-accelerated object detection using [Ultralytics YOLO](https://github.com/ultralytics/ultralytics).
--   📊 **Area Monitoring**: Computes object areas per frame, applies **SMA smoothing**, and plots real-time trends.
--   ⚠️ **Alerts & Reports**: NG (No Good) alerts trigger sound notifications and **auto-generated PDF reports** (with start/NG images).
--   🖼️ **Interactive GUI**: Adjustable confidence threshold, FPS, SMA window, and more, all in a modern Tkinter interface.
--   💾 **Video Export**: Option to save annotated output videos.
+- 🎬 **Multiple Input Sources**: Load from local video files, RTSP streams, or camera devices.  
+- 🤖 **YOLOv8 Inference**: GPU-accelerated object detection using [Ultralytics YOLO](https://github.com/ultralytics/ultralytics).  
+- 📊 **Area Monitoring**: Computes object areas per frame, applies **SMA smoothing**, and plots real-time trends.  
+- ⚠️ **Alerts & Reports**: NG (No Good) alerts trigger sound notifications and **auto-generated PDF reports** (with start/NG images).  
+- 🖼️ **Interactive GUI**: Adjustable confidence threshold, FPS, SMA window, and more, all in a modern Tkinter interface.  
+- 💾 **Video Export**: Option to save annotated output videos.  
 
 ---
 
-## 📂 Project Structure
-<pre>
-monitor-area-of-object-GUI/
-├── app.py              # Main application entry point (initializes YOLOInferenceApp)
-├── ui.py               # UIManager – builds Tkinter interface and layouts
-├── data_processor.py   # DataProcessor – handles area cleaning, trend checks, NG detection
-├── resource_manager.py # ResourceManager – GPU/CPU resource handling and cleanup
-├── video_processor.py  # VideoProcessor – handles frame reading, YOLO inference, and plotting
-├── models/
-│   └── area0903.pt     # Example YOLO model weights
-└── docs/
-└── gui screenshot.jpg # GUI preview screenshot
-  <pre>
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone [https://github.com/mai890107/monitor-area-of-object-GUI.git](https://github.com/mai890107/monitor-area-of-object-GUI.git)
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/mai890107/monitor-area-of-object-GUI.git
 cd monitor-area-of-object-GUI
-
-2. Create a Virtual Environment (Recommended)
-# macOS / Linux
+2️⃣ Create a Virtual Environment (Recommended)
+macOS / Linux
 python -m venv venv
 source venv/bin/activate
-
-# Windows
+Windows
 python -m venv venv
 venv\Scripts\activate
-
-3. Install Dependencies
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
----
-
-## ▶️ Usage
+▶️ Usage
 python app.py
 
 Steps
-1.Load YOLO Model → Choose area0903.pt or a pretrained yolov8*.pt model.
-2.Select Video Source → Upload a video, open a local camera, or provide an RTSP URL.
-3.Adjust Parameters → Set confidence, FPS, SMA window, and output saving options.
-4.Start Inference → Click ▶ Start to begin detection and area trend monitoring.
-5.Monitor NG Alerts → Receive audible beeps and auto-generated PDF reports when NG conditions are met.
----
 
-This project is licensed under the MIT License.
+Load YOLO Model → Choose area0903.pt or a pretrained yolov8*.pt model.
+Select Video Source → Upload a video, open a local camera, or provide an RTSP URL.
+Adjust Parameters → Set confidence, FPS, SMA window, and output saving options.
+Start Inference → Click ▶ to begin detection and area trend monitoring.
+Monitor NG Alerts → Receive audible beeps and auto-generated PDF reports when NG conditions are met.
+
+This project is licensed under the MIT License
+.
+
+
+
+
 
