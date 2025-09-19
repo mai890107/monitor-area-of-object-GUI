@@ -35,9 +35,9 @@ monitor-area-of-object-GUI/
 
 
 
-🚀 Installation
+##  Installation
 
-###1️⃣ Clone Repository
+### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/mai890107/monitor-area-of-object-GUI.git
 cd monitor-area-of-object-GUI
