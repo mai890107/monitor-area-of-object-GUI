@@ -34,9 +34,8 @@ monitor-area-of-object-GUI/
 
 
 ---
-
-Installation
 </pre>
+Installation
 1. Clone Repository
 Clone this repository and move into the project folder:
 
@@ -51,14 +50,15 @@ venv\Scripts\activate         # Windows
 3. Install Dependencies
 pip install -r requirements.txt
 </pre>
-
+</pre>
 ###▶ Usage
 ```bash
 Launch GUI
 python app.py
+</pre>
 
+</pre>
 Steps
-
 1.Load YOLO Model → Choose area0903.pt or a pretrained yolov8*.pt.
 
 2.Select Video Source → Upload a video, open a local camera, or provide an RTSP URL.
@@ -68,28 +68,20 @@ Steps
 4.Start Inference → Click ▶ Start to begin detection and area trend monitoring.
 
 5.Monitor NG Alerts → Receive audible beeps and auto-generated PDF reports when conditions are met.
+</pre>
 
-Screenshots
-Main GUI
-![GUI Screenshot](https://github.com/mai890107/monitor-area-of-object-GUI/raw/main/docs/gui%20screenshot.jpg)
-
-Contributing
+</pre>
 
 Contributions are welcome!
-
 Fork the repository
-
 Create your feature branch: git checkout -b feature/your-feature
-
 Commit your changes: git commit -m "Add some feature"
-
 Push to the branch: git push origin feature/your-feature
-
 Open a Pull Request
-
 Please follow the existing code style and include tests or screenshots where applicable.
+</pre>
 
+</pre>
 License
-
 This project is licensed under the MIT License
-
+</pre>
